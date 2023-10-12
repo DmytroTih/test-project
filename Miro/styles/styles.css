@@ -1,0 +1,147 @@
+body {
+   margin: 0;
+}
+
+h1 {
+   margin: 0 0 17px 0;
+   text-align: center;
+}
+
+h2 {
+   margin: 0 0 19px 0;
+}
+
+h1, h2 {
+   color: #050038;
+      font-size: 48px;
+      font-weight: 400;
+      line-height: 56px;
+}
+
+.herotext {
+   color: #050038;
+   margin: 0 0 55px 0;
+}
+.p2 {
+   color: #696688;
+   margin: 0 0 40px 0;
+}
+
+nav {
+   padding: 33px 50px;
+   border-bottom: 1px solid #F0F0F0;
+   margin-bottom: 60px;
+}
+
+nav ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+footer {
+   background: #050038;
+   padding: 47px 40px;
+}
+footer a {
+   color: white;
+   text-decoration: none;
+}
+
+header a {
+   color: #050038;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   text-decoration: none;
+}
+.heroform + p {
+   color: #050038;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      margin: 8px 0 52px 0;
+}
+
+.heroform input {
+   border-radius: 32px;
+   border: 1px solid #9B99AF;
+   height: 48px;
+   padding: 5px 10px;
+}
+
+.heroform button {
+   height: 38px;
+   border: 1px solid #4262FF;
+   border-radius: 32px;
+   padding: 10px 20px;
+}
+
+.sectionlist {
+   list-style: none;
+   /*list-style: url('/Miro/imege/Frame.svg');*/
+}
+
+.sectionlist li::before {
+   content: url('/Miro/imege/Frame.svg');
+}
+
+a::selection {
+   background-color: #4262FF;
+}
+
+#heroButton {
+   background-color: #4262FF;
+   transition: background-color 1s 1s, border-radius 2s 1s;
+   color: #FFFF;
+}
+
+#heroButton:hover {
+   background-color: #141b41;
+}
+
+#heroButton:active {
+   background-color: #565a72;
+}
+
+.heroform input:focus {
+   background-color: #4d41d3;
+}
+
+.link {
+   color: #4262FF;
+   text-decoration: underline;
+}
+
+.link:hover {
+   color: #050a20;
+}
+
+#hero {
+   font-size: 16px;
+}
+
+h1 {
+   font-size: 3em;
+}
+
+.herotext {
+   font-size: 2em;
+}
+
+#heroButton {
+   border: 1px solid #4262FF;
+   border-radius: 32px;
+   padding: 10px 20px;
+   height: 38px;
+   font-size: 1em;
+}
+
+@keyframes my-move {
+   50% {
+      transform: translateX(100%);
+   }
+   100% {
+      transform: translateX(100%) translateY(-100%);
+   }
+}

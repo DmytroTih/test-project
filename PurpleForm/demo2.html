@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="styles/style.css"/>
+</head>
+<body>
+   <main>
+      <h1>Свяжитесь со мной</h1>
+      <form action="#">
+         <div class="field">
+            <img src="/PurpleForm/imeges/message.svg" alt="иконка сообщения">
+            <label for="email">E-mail*</label>
+            <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Введите E-mail"
+            required
+            /> 
+         </div>
+         <div class="field">
+            <img src="./imeges/telegram.svg" alt="иконка телеграм">
+            <label for="telegram">Telegram</label>
+            <input
+            type="text"
+            id="telegram"
+            name="email"
+            placeholder="Введите Telegram"
+            />
+         </div>
+         <div class="field">
+            <img src="./imeges/topic.svg" alt="иконка сообщения">
+            <label for="topik">Тема*</label>
+            <select name="topik" id="topik" required>
+               <option value="courses">Приобритение курсов</option>
+               <option value="feedback">Обратаная связь</option>
+            </select>
+         </div>
+         <div class="field">
+            <label for="comment">Комментарий</label>
+            <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+         </div>
+         <button>Отрпавить</button>
+      </form>
+   </main>
+</body>
+</html>
